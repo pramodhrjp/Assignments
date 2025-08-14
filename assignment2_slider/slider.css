@@ -1,0 +1,30 @@
+.slider {
+  width: 295px;
+  height: 240px;
+  margin: 50px auto;
+  position: relative;
+  border: 1px solid #000;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.arrow {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  user-select: none;
+}
+
